@@ -1,0 +1,286 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voos</title>
+<link rel="shortcut icon" href="imagens/aviaomenu.ico"
+	type="image/x-icon">
+<link rel="stylesheet" href="css/voos.css">
+<!-- font do site linkada ao google -->
+<link
+	href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+	rel="stylesheet">
+<!-- link do bootstrap-->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+	crossorigin="anonymous">
+<!-- link do icones  -->
+<link rel="stylesheet"
+	href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<header>
+		<section class="topo">
+			<div class="logotopo">
+				<img src="imagens/logotopo.png" alt="logo Viajar Mais">
+			</div>
+
+		</section>
+
+
+		<!-- incio do navbar bootstrap -->
+		<nav class="navbar navbar-expand-lg fixed-top"
+			style="background-color: yellow">
+			<a class="navbar-brand" href="#"> <img class="icone"
+				src="imagens/aviaoInput.ico" alt="Icone de avião">
+			</a>
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" target="_blank" href="index.jspl"> Página
+							Principal </a></li>
+					<li class="nav-item"><a class="nav-link" href="#"> Viagem
+							Internacional </a></li>
+					<li class="nav-item dropdown"><a
+						class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+						role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Encontre uma loja </a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="voos.jsp"> Promoções
+							</a></li>
+							<li><a class="dropdown-item" href="faleconosco.jsp"> SAC
+							</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#"> Entre ou
+									Cadastre-se</a></li>
+						</ul></li>
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search"
+						placeholder="Pesquisar" aria-label="Search">
+					<button class="btn btn-outline-ligth" type="submit">Pesquisar</button>
+				</form>
+			</div>
+			</div>
+		</nav>
+
+	</header>
+	<!-- fim do cabeçalho -->
+	<div class="titulocard">
+		<h1>Voos com preços imbátiveis pra você aproveitar</h1>
+	</div>
+
+
+
+
+	<!-- Cards do site -->
+	<!-- card -->
+
+	<section class="cards">
+		<div class="card">
+			<div class="image">
+				<img src="imagens/bahia305.jpg" />
+			</div>
+			<div class="content">
+				<p class="title text--medium">
+					Salvador - BA <br> Ida e Volta com taxas inclusas
+				</p>
+				<div class="info">
+					<p class="text--medium">
+						A partir de <br> 12 x R$ 130,00
+					</p>
+					<span>* Valor por pessoa</span>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- card -->
+		<div class="card">
+			<div class="image">
+				<img src="imagens/fortaleza305.jpg">
+			</div>
+			<div class="content">
+				<p class="title text--medium">
+					Forteleza - CE <br> Ida e Volta com taxas inclusas
+				<p class="text--medium">
+					A partir de <br> 12 x R$ 130,00
+				</p>
+				<span>* Valor por pessoa</span>
+				</p>
+			</div>
+		</div>
+		<!-- card -->
+		<div class="card">
+			<div class="image">
+				<img src="imagens/jericoacora305.jpg" />
+			</div>
+
+			<div class="content">
+				<p class="title text--medium">
+					Jericoacoara - CE <br> Ida e Volta com taxas inclusas
+				</p>
+				<div class="info">
+					<p class="text--medium">
+						A partir de <br> 12 x R$ 180,00
+					</p>
+					<span>* Valor por pessoa</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="titulocard">
+		<h1>Voos internacionais com melhores condições de pagamento</h1>
+	</div>
+
+
+	<section class="cards2">
+		<!-- card -->
+		<div class="card">
+			<div class="image">
+				<img src="imagens/Paris305.jpg" />
+			</div>
+			<div class="content">
+				<p class="title text--medium">
+					Paris - França <br> Ida e Volta com taxas inclusas.
+				</p>
+				<div class="info">
+					<p class="text--medium">
+						A partir de <br> 12 x R$ 690,00
+					</p>
+					<span>* Valor por pessoa</span>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- card -->
+		<div class="card">
+			<div class="image">
+				<img src="imagens/orlando305.jpg" />
+			</div>
+			<div class="content">
+				<p class="title text--medium">
+					Orlando - EUA <br> Ida e Volta com taxas inclusas.
+				</p>
+				<div class="info">
+					<p class="text--medium">
+						A partir de <br> 12 x R$ 480, 00
+					</p>
+					<span>* Valor por pessoa</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- card -->
+		<div class="card">
+			<div class="image">
+				<img src="imagens/veneza3-305.jpg" />
+			</div>
+			<div class="content">
+				<p class="title text--medium">
+					Veneza - Itália <br> Ida e Volta com taxas inclusas.
+				</p>
+				<div class="info">
+					<p class="text--medium">
+						A partir de <br> 12 x R$ 500, 00
+					</p>
+					<span>*Valor por pessoa</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- fim dos cards -->
+
+
+
+
+	<!-- inicio do rodapé  -->
+	<footer id="myFooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h5>Inicio</h5>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Formas de pagamento</a></li>
+						<li><a href="#"> Remarcações de Viagens</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h5>Sobre nós</h5>
+					<ul>
+						<li><a href="#">Informações da Empresa</a></li>
+						<li><a href="#">Seja um franqueado</a></li>
+						<li><a href="#">Condições de privacidade</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h5>Suporte</h5>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Telefones</a></li>
+						<li><a href="#">Chat</a></li>
+					</ul>
+				</div>
+
+
+				<div class="second-bar">
+					<div class="container">
+						<div class="social-icons">
+							<a href="https://twitter.com/home" class="twitter"><i
+								class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/"
+								class="facebook"><i class="fa fa-facebook"></i></a> <a
+								href="https://www.instagram.com/" class="instagram"><i
+								class="fa fa-instagram"></i></a>
+
+						</div>
+						<div></div>
+						<div>
+							<span> Viajar Mais © 2022 </span>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</footer>
+	<!-- Fim do rodapé -->
+	<section class="container"></section>
+
+
+
+
+	<!-- link do bootstrap -->
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+
+</body>
